@@ -1,0 +1,407 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  /* background: linear-gradient(#1a383d 25% , lightgrey 90% , white); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo img{
+  width: 15%;
+  height: 8%;
+  float: left;
+  display: initial;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*  .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+} */
+.dot {
+  height: 90px;
+  width: 90px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #555555;} /* Black */
+.button5 {background-color: pink;} /* pink */
+.button6 {background-color: orange;} /* orange */
+.button6 {background-color: purple;} /* purple */
+.button7 {background-color: yellow;} /* yellow */
+
+.topbutton{
+  background-color: white;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #2F4F4F;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+
+.menu1 {
+        width: 100%;
+        background: linear-gradient(#535559 17% ,white);
+        overflow: auto;
+        border-radius: 15px;
+      }
+
+      .menu1 a {
+        float: left;
+        padding: 6px;
+        color: black;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .menu1 a:hover {
+        background-color: #373b38;
+        border-radius: 10px;
+      }
+
+      .active {
+        background-color: #4CAF50;
+      }
+
+      @media screen and (max-width: 500px) {
+        .menu1 a {
+          float: none;
+          display: block;
+        }
+      }
+      .dropdown1 {
+        float: left;
+        overflow:auto;
+      }
+
+      .dropdown1 .dropbtn1 {
+        font-size: 17px;    
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        color: black;
+        padding: 6px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .dropdown-content1 {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content1 a {
+        float: none;
+        border-radius: 10px;
+        color: black;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown1:hover .dropbtn1 {
+        background-color: #373b38;
+        color: white;
+      }
+
+      .dropdown-content1 a:hover {
+        background-color: #373b38;
+        border-radius: 10px;
+        color: white;
+      }
+
+      .dropdown1:hover .dropdown-content1 {
+        display: block;
+      }
+        @media screen and (max-width: 500px) {
+        .dropdown1 a {
+          float: none;
+          display: block;
+        }
+      }
+
+.category h1{
+  text-decoration: none;
+  text-align: center;
+  font-size: 120px;
+  font-family: "Comic Sans MS",cursive,sans-serif;
+  }
+
+/*.row h2{
+  font-style: normal;
+  font-weight: 900;
+  color: blue;
+  text-decoration: underline;
+  text-align: initial;
+}*/
+
+.clothing .card{
+
+  background-image: url("clothes.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+
+  }
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #FFA500;}
+
+
+
+    /* Dropdown Button */
+.dropbtn {
+  background-color: #FFA500;
+  color: white;
+  padding: 5px 7px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: overline underline;
+  border: none;
+  cursor: pointer;
+
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.Shoes
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 5px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.Shoes
+a:hover{
+  background-color: #4CAF50;
+}
+
+.Shoes .card{
+  background-image: url("shoes.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Watches
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 5px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.Watches
+a:hover{
+  background-color: #4CAF50;
+}
+.Watches .card{
+ 
+  background-image: url("watches.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+
+.books
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 5px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.books
+a:hover{
+  background-color: #4CAF50;
+}
+.books .card{
+ 
+  background-image: url("books.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Electronics
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.Electronics
+a:hover{
+  background-color: #4CAF50;
+}
+.Electronics .card{
+
+  background-image: url("electronics.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.SF
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.SF
+a:hover{
+  background-color: #4CAF50;
+}
+.SF .card{
+
+  background-image: url("sports.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.kids
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.kids
+a:hover{
+  background-color: #4CAF50;
+}
+.kids .card{
+
+  background-image: url("electronics.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.beauty
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.beauty
+a:hover{
+  background-color: #4CAF50;
+}
+.beauty .card{
+
+  background-image: url("electronics.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home
+a:link, a:visited {
+  background-color: #FFA500;
+  color: white;
+  padding: 4px 4px;
+  text-align: center;
+  text-decoration: overline underline;
+  display: inline-block;
+}
+.home
+a:hover{
+  background-color: #4CAF50;
+}
+.home .card{
+
+  background-image: url("electronics.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
